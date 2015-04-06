@@ -1,7 +1,7 @@
 module.exports.annotate = function (prefix, namespace, key, logger) {
   var orig = namespace[key];
   namespace[key] = function () {
-    var s = 'nedb.' + key + '(';
+    var s = prefix + key + '(';
     for (var i = 0; i < arguments.length; i++) {
       if (i > 0) { s += ', '; }
       var arg = arguments[i];
