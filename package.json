@@ -1,0 +1,35 @@
+{
+  "name": "log-calls",
+  "version": "0.0.1",
+  "description": "Log function calls",
+  "author": {
+    "name": "Dr. Stefan Schimanski",
+    "email": "stefan.schimanski@gmail.com",
+    "url": "http://github.com/sttts/log-calls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sttts/log-calls.git"
+  },
+  "main": "./log-calls.js",
+  "license": "MIT",
+  "titaniumManifest": {
+    "name": "log-calls",
+    "guid": "dd21ca48-dcad-11e4-b9d6-1681e6b88ec1",
+    "moduleid": "log-calls"
+  },
+  "engines": {
+    "titaniumsdk": ">= 3.4.1.GA"
+  },
+  "keywords": [
+    "log",
+    "modules",
+    "functions",
+    "annotate",
+    "debug"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
